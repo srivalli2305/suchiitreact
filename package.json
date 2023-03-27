@@ -1,5 +1,6 @@
 {
   "name": "reactjs_gitpages",
+  "homepage": "https://github.com/srivalli2305/suchiitreact.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
